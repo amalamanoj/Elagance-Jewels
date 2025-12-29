@@ -1,0 +1,17 @@
+body{
+    font-family:Arial;margin:0;background:#fff5f8
+}
+header{
+    text-align:center;padding:25px;background:#c2185b;color:#fff}
+.items{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px;padding:15px}
+.card{
+    background:#fff;padding:10px;border-radius:12px;text-align:center;box-shadow:0 4px 8px rgba(0,0,0,.1)}
+.card img{
+    width:100%;border-radius:10px}
+.card button{
+    background:#c2185b;color:#fff;border:none;padding:8px;width:100%;border-radius:8px}
+.summary{
+    background:#fff;margin:15px;padding:15px;border-radius:12px}
+.summary button{
+    background:#25D366;color:#fff;border:none;padding:12px;width:100%;border-radius:8px;font-size:16px}
