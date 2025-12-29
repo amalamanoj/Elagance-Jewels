@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin - Elagance Jewels</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script>
+let pass=prompt("Enter Admin Password");
+if(pass!=="Amala Ibin@2006"){ alert("Access Denied"); location.href="index.html"; }
+</script>
+
+<h2 style="text-align:center">Admin Panel</h2>
+
+<div style="padding:15px">
+  <input id="name" placeholder="Item Name"><br><br>
+  <input id="price" type="number" placeholder="Price"><br><br>
+  <input id="image" placeholder="Image name (earring1.jpg)"><br><br>
+  <button onclick="addItem()">Add Item</button>
+</div>
+
+<ul id="list"></ul>
+<script src="admin.js"></script>
+</body>
+</html>
